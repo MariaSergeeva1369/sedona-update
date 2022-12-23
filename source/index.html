@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico">
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/ptsans-400.woff2"  type="font/woff2" as="font" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+          <div class="container flex-container">
+            <nav class="navigation">
+              <a class=navigation-logo>
+                <img class="page-header-logo" src="images/header/logo-sedona.svg" width="139" height="70" alt="Логотип Седона.">
+              </a>
+              <ul class="navigation-list">
+                <li class="navigation-item">
+                  <a class="navigation-link navigation-link-current">Главная</a>
+                </li>
+                <li class="navigation-item">
+                  <a class="navigation-link" href="#">О Седоне</a>
+                </li>
+                <li class="navigation-item">
+                  <a class="navigation-link" href="catalog.html">Гостиницы</a>
+                </li>
+              </ul>
+            </nav>
+
+            <ul class="user-menu">
+              <li class="user-menu-item">
+                <a class="user-menu-link" href="#">
+                  <svg class="user-menu-icon" aria-hidden="true" focusable="false" width="18" height="18" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поиск">
+                    <path d="m19.026 17.05-3.71-3.7c1.002-1.3 1.704-3 1.704-4.9 0-4.4-3.61-8-8.023-8C4.585.45.975 4.15.975 8.55c0 4.4 3.61 8 8.022 8 1.805 0 3.51-.6 4.914-1.7l3.71 3.7 1.405-1.5Zm-10.029-2.5c-3.309 0-6.017-2.7-6.017-6s2.708-6 6.017-6c3.31 0 6.017 2.7 6.017 6s-2.707 6-6.017 6Z" />
+                  </svg>
+                  <span class="visually-hidden">Поиск</span>
+                </a>
+              </li>
+              <li class="user-menu-item">
+                <a class="user-menu-link favorite" href="#">
+                  <svg class="user-menu-icon" width="18" height="17" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Избранное">
+                    <path d="M9.444 17c-.301 0-.602-.1-.802-.4-5.416-6.1-6.72-7.5-7.02-7.9C.92 7.8.519 6.6.519 5.4c0-3 2.406-5.4 5.515-5.4 1.304 0 2.507.5 3.51 1.3C10.547.5 11.851 0 13.054 0c3.008 0 5.516 2.4 5.516 5.4 0 1.3-.502 2.5-1.304 3.4l-7.02 7.9c-.2.2-.401.3-.802.3ZM3.427 7.5c.3.4 3.51 4 6.117 6.9l6.218-7c.501-.5.702-1.2.702-2 0-1.8-1.505-3.3-3.31-3.3-1.002 0-2.005.5-2.707 1.3-.301.3-.602.4-.903.4-.3 0-.602-.2-.802-.4-.702-.8-1.705-1.3-2.708-1.3-1.805 0-3.31 1.5-3.31 3.3-.1.9.302 1.6.703 2.1-.1 0-.1 0 0 0Z" />
+                  </svg>
+                  <span class="visually-hidden">Избранное</span>
+                </a>
+              </li>
+              <li class="user-menu-item">
+                <a class="button user-menu-button brown-button" href="#">Хочу сюда!</a>
+              </li>
+            </ul>
+          </div>
+      </header>
+
+      <main class="main-page main-container">
+        <div class="main-block">
+          <h1 class="visually-hidden">Седона</h1>
+          <img class="main-image" src="images/index/welcome-to-sedona.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
+        </div>
+
+        <section class="advantages">
+          <h2 class="visually-hidden">О Седоне</h2>
+          <p class="advantages-description-title-about">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+          <p class="advantages-description-about">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ol class="advantages-list">
+            <li class="advantages-item">
+              <div class="bg-blue">
+                <div class="advantages-block">
+                  <h3 class="advantages-title">Настоящий городок</h3>
+                  <p class="advantages-number">— №1 —</p>
+                  <p class="advantages-description">Седона&nbsp;&mdash; не&nbsp;аттракцион для&nbsp;туристов, там течёт
+                    своя&nbsp;жизнь</p>
+                </div>
+                <img class="advantages-image" src="images/index/advantages-city.jpeg" width="800" height="384" alt="Городок Седона.">
+              </div>
+                <ul class="inner-advantages-list">
+                  <li class="inner-advantages-item bg-gray living">
+                    <h4 class="inner-advantages-title">Жильё</h4>
+                    <p class="advantages-description">Рекомендуем пожить в&nbsp;настоящем мотеле, всё&nbsp;как&nbsp;в&nbsp;кино!</p>
+                  </li>
+                  <li class="inner-advantages-item bg-white food">
+                    <h4 class="inner-advantages-title">Еда</h4>
+                    <p class="advantages-description">Всегда&nbsp;заказывайте
+                      топовый&nbsp;фирменный&nbsp;бургер, вы&nbsp;не&nbsp;разочаруетесь!</p>
+                  </li>
+                  <li class="inner-advantages-item bg-gray souvenirs">
+                    <h4 class="inner-advantages-title">Сувениры</h4>
+                    <p class="advantages-description">Не&nbsp;только китайского,
+                      но&nbsp;и&nbsp;настоящего местного производства!</p>
+                  </li>
+                </ul>
+            </li>
+            <li class="advantages-item bg-blue">
+              <div class="advantages-block">
+                <h3 class="advantages-title">Там&nbsp;есть мост&nbsp;дьявола</h3>
+                <p class="advantages-number">— №2 —</p>
+                <p class="advantages-description blue">Да, по&nbsp;нему можно пройти! Если вы&nbsp;осмелитесь, разумеется</p>
+              </div>
+              <img class="advantages-image advantages-mountains" src="images/index/advantages-mountains.jpeg" width="800" height="384" alt="Мост дьявола.">
+            </li>
+            <li class="advantages-item bg-gray advantages-block">
+              <h3 class="advantages-title">Небольшая площадь</h3>
+              <p class="advantages-number">— №3 —</p>
+              <p class="advantages-description">Все достопримечательности находятся очень близко</p>
+            </li>
+            <li class="advantages-item bg-dark-gray advantages-block">
+              <h3 class="advantages-title">Красивая дорога</h3>
+              <p class="advantages-number">— №4 —</p>
+              <p class="advantages-description">Ехать в&nbsp;Седону из&nbsp;Лас-Вегаса совсем не&nbsp;скучно!</p>
+            </li>
+            <li class="advantages-item bg-gray advantages-block">
+              <h3 class="advantages-title">Мало туристов</h3>
+              <p class="advantages-number">— №5 —</p>
+              <p class="advantages-description gray">Большинство едет в&nbsp;Гранд Каньон и&nbsp;толпится там</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="hotel-search-block">
+          <h2 class="hotel-search-block-title">Заинтересовались?</h2>
+          <p class="hotel-search-block-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <a class="button hotel-search-button brown-button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        </section>
+
+        <section class="subscription">
+          <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+          <p class="subscription-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="subscription-label">
+              <span class="visually-hidden">Email</span>
+              <input class="field subscription-field" name="subscription-email" type="email" placeholder="Ваш e-mail" required>
+            </label>
+            <button class="button subscription-button blue-button" type="submit">Подписаться</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="page-footer">
+        <div class="grid-container">
+          <section class="footer-social">
+            <h2 class="visually-hidden">Социальные сети</h2>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a class="footer-social-link social-button-tw" href="https://twitter.com/htmlacademy_ru" target="_blank">
+                  <svg width="18" height="15" viewBox="0 0 18 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Twitter">
+                    <path d="M11.6 0.200056C13.4 -0.299944 14.8 0.500056 15.4 1.40006C16.1 1.20006 16.8 0.900056 17.5 0.700056C17.5 1.60006 16.9 2.20006 16.6 2.50006C17.3 2.60006 18 1.90006 18 1.90006C17.8 2.90006 16.9 3.70006 16.3 3.90006C16.1 10.7001 13 15.1001 5.7 15.0001C5.1 15.0001 5.8 15.0001 5.2 15.0001C4.8 15.0001 0.8 14.5001 0 13.1001C2.4 13.3001 4.1 12.7001 5 11.9001C4 11.6001 2.1 11.5001 1.8 9.00006C2.2 9.10006 2.4 9.20006 3.1 9.10006C1.8 8.30006 0.4 7.50006 0.5 5.30006C0.8 5.60006 1.6 5.80006 1.9 5.80006C1.1 5.60006 -0.2 2.50006 0.9 0.900056C2.8 2.80006 4.9 4.50006 8.5 4.70006C8.7 2.30006 9.7 0.800056 11.6 0.200056Z" />
+                  </svg>
+                  <span class="visually-hidden">Twitter</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-social-link social-button-fb" href="https://www.facebook.com/htmlacademy" target="_blank">
+                  <svg width="10" height="18" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Facebook">
+                    <path d="M7 0a4 4 0 0 0-4 4v2H0v4h3v8h4v-8h3V6H7V4h3V0H7Z" />
+                  </svg>
+                  <span class="visually-hidden">Facebook</span>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-social-link button social-button-yt" href=" https://www.youtube.com/c/HTMLAcademyRUS" target="_blank">
+                  <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="YouTube">
+                    <path d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z" />
+                  </svg>
+                  <span class="visually-hidden">YouTube</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="footer-contacts">
+            <h2 class="visually-hidden">Телефон</h2>
+            <address class="footer-contacts-adress">
+              <a class="footer-contacts-adress-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+            </address>
+          </section>
+
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/" target="_blank">
+            <svg width="115" height="34" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="html.academy">
+              <path d="M0 12.9v2.6h2.5v-2.6H0ZM11.6 4.5c-1.6 0-2.8.7-3.6 1.7h-.1V0h-2v15.5h2v-5.3c0-2.1 1.3-3.6 3.3-3.6 1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.4c.1-3-1.8-4.9-4.5-4.9ZM26.6 4.8h-4.8V1.1h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V6.8h4.8v-2ZM41.1 4.6c-1.6 0-2.9.8-3.5 2.1h-.1a3.7 3.7 0 0 0-3.4-2.1c-1.4 0-2.5.8-3.1 1.8h-.1V4.8H29v10.6h2V10c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2V9.8c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V8.9c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 12.7c0 1.7 1 2.7 2.8 2.7h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V0h-2v12.7ZM28.9 19.7a4.9 4.9 0 0 0-3.9-1.8c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3.1 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3 3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6 1.6 0 2.8 1 3.3 2.2h2.1V22ZM55.1 19.7a4.9 4.9 0 0 0-3.9-1.8c-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 19.8a5 5 0 0 0-3.9-1.9c-3.1 0-5.4 2.3-5.4 5.6s2.2 5.6 5.4 5.6c1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.4h-2v6.4Zm-3.6 7.3a3.5 3.5 0 0 1-3.6-3.6c0-2 1.4-3.6 3.6-3.6s3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 17.9a5.4 5.4 0 0 0-5.5 5.6c0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-2.9h8.8c.2-3.6-2-6.3-5.5-6.3Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5a3.2 3.2 0 0 1 3.2-2.6ZM98.2 17.9a4 4 0 0 0-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27l-3.6-8.9h-2.2l4.8 11.6c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z" />
+            </svg>
+            <span class="visually-hidden">Сделано в html.academy</span>
+          </a>
+        </div>
+      </footer>
+
+      <div class="modal-container madal-closed">
+        <div class="modal modal-auth">
+          <section class="modal-content">
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <button class="modal-close-button button" type="button">
+              <span class="visually-hidden">Закрыть окно</span>
+            </button>
+            <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="field-group modal-form-date">
+                <label class="form-label form-label-date" for="input-date-in">Дата заезда:</label>
+                  <input class="field modal-field modal-date-field date-in-field" type="text" name="modal-date-in" placeholder="27 апреля 2020" id="input-date-in">
+                  <button class="date-button" type="button">
+                    <span class="visually-hidden">Выбрать даты</span>
+                  </button>
+              </p>
+              <span class="modal-discription date-in modal-error">Мы не можем отправить вас в прошлое.</span>
+              <p class="field-group modal-form-date">
+                <label class="form-label form-label-date" for="input-date-out">Дата выезда:</label>
+                  <input class="field modal-field modal-date-field date-out-field" type="text" name="modal-date-out" placeholder="1 сентября 2021" id="input-date-out">
+                  <button class="date-button" type="button">
+                    <span class="visually-hidden">Выбрать даты</span>
+                  </button>
+              </p>
+              <span class="modal-discription date-out">На эти даты есть свободные номера. Пока есть.</span>
+              <p class="field-group modal-form-visitors">
+              <label class="form-label form-label-adults" for="input-adults">Взрослые:</label>
+                <button class="modal-number-button min-button" type="button">
+                  <svg class="modal-number-icon min" width="13" height="1" viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <path d="M0 0v1h13V0H0Z" />
+                  </svg>
+                  <span class="visually-hidden">Уменьшить</span>
+                </button>
+                <input class="field modal-field modal-numbers-field" type="number" name="adults" value="1" min="1" id="input-adults">
+                <button class="modal-number-button max-button" type="button">
+                  <svg class="modal-number-icon" width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
+                  </svg>
+                  <span class="visually-hidden">Увеличить</span>
+                </button>
+                <span class="form-label form-label-children form-label-icon">
+                  <label for="input-children">Дети:</label>
+                  <span class="tooltip">
+                    <button class="tooltip-toogle" type="button" aria-labelledby="tooltip-label">
+                      <svg class="tooltip-icon" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Информация">
+                        <circle cx="12.5" cy="12.5" r="12.5" /><g clip-path="url(#a)" fill="#fff"><path d="M12 17h1v-6h-1v6ZM13 8h-1v1h1V8Z"/></g><defs><clipPath id="a"><path fill="#fff" transform="translate(12 8)" d="M0 0h1v9H0z"/></clipPath></defs>
+                      </svg>
+                    </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с&nbsp;вами, возраст которых от&nbsp;6&nbsp;до&nbsp;18&nbsp;лет. Дети до&nbsp;6&nbsp;лет размещаются бесплатно.</span>
+                  </span>
+                </span>
+                <button class="modal-number-button min-button" type="button">
+                  <svg class="modal-number-icon min" width="13" height="1" viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <path d="M0 0v1h13V0H0Z" />
+                  </svg>
+                  <span class="visually-hidden">Уменьшить</span>
+                </button>
+                <input class="field modal-field modal-numbers-field" type="number" name="children" value="1" min="0" id="input-children">
+                <button class="modal-number-button max-button" type="button">
+                  <svg class="modal-number-icon" width="13" height="13" viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
+                  </svg>
+                  <span class="visually-hidden">Увеличить</span>
+                </button>
+              </p>
+              <button class="button modal-submit blue-button" type="submit">Найти</button>
+            </form>
+          </section>
+        </div>
+      </div>
+
+
+      <script src="js/modal.js" type="module"></script>
+    </div>
+  </body>
+</html>
